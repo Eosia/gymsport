@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymSport</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="items-navigations">Accueil</a></li>
+            <li><a href="#equipement" class="items-navigations">Matériel</a></li>
+            <li><a href="#tarifs" class="items-navigations">Tarifs</a></li>
+            <li><a href="#contact" class="items-navigations">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Accueil -->
+    <div class="accueil" id="home">
+        <div class="bloc-gauche-accueil">
+            <h1>GYM YONOS</h1>
+            <p>Dépassez vos limites</p>
+            <p>Entrainez-vous.</p>
+            <p>Progressez.</p>
+
+            <div class="cont-btn-home">
+                <a href="#equipement" class="btn-accueil b1">Equipement</a>
+                <a href="#contact" class="btn-accueil b2">Contact</a>    
+            </div>
+        </div>
+        
+        <div class="bloc-droit-accueil">
+        </div>
+    </div>
+    
+    <!-- section 1 infos -->
+    <h2 class="titre-section-info">
+        SE (RE)PRENDRE EN MAIN
+    </h2>
+    
+    <section class="section-info" id="infos">
+    
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="img/img-info-1.jpg" alt="femme fesant du sport">
+            </div>
+            <h2>Faire parti d'un groupe</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni vitae voluptatum sit dicta, nobis modi.
+            </p>
+            <img src="img/points.png" alt="" class="deco-infos">
+        </div>
+        
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="img/img-info-2.jpg" alt="homme abdominaux">
+            </div>
+            <h2>Atteindre ses objectifs</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni vitae voluptatum sit dicta, nobis modi.
+            </p>
+        </div>
+        
+        <div class="carte-info">
+            <div class="container-photo-info">
+                <img src="img/img-info-3.jpg" alt="cage à squat">
+            </div>
+            <h2>Exploser ses limites</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni vitae voluptatum sit dicta, nobis modi.
+            </p>
+        </div>
+
+    </section>
+    
+    <!-- section 2 choix -->
+    <section id="choix">
+        <div class="entrainement-choix">
+            <h3>Salle de sport</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Consequuntur labore corporis sed.
+            </p>
+            <button class="btn-outline-choix" type="button" onclick="window.location.href='#tarifs'";">
+                Voir les prix
+            </button>
+        </div>
+        
+        <div class="entrainement-choix">
+            <h3>Cross Fit</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Consequuntur labore corporis sed.
+            </p>
+            <button class="btn-outline-choix" type="button" onclick="window.location.href='#tarifs'";">
+                Voir les prix
+            </button>
+        </div>
+        
+    </section>
+    
+    <!-- section equipement -->
+    <h2 class="titre-equipements">Les équipements</h2>
+    
+    <section id="equipement">
+        <button type="button" data-index="1" class="btn-modale"></button>
+        <button type="button" data-index="2" class="btn-modale"></button>
+        <button type="button" data-index="3" class="btn-modale"></button>
+        <button type="button" data-index="4" class="btn-modale"></button>
+        <button type="button" data-index="5" class="btn-modale"></button>
+        <button type="button" data-index="6" class="btn-modale"></button>
+        <button type="button" data-index="7" class="btn-modale"></button>
+        <button type="button" data-index="8" class="btn-modale"></button>
+        <button type="button" data-index="9" class="btn-modale"></button>
+    </section>
+    
+    <div class="bloc-modale">
+        <div class="bloc-img">
+            <img src="img/img1-equip.jpg" alt=""matériel de la alle de sport>
+            <button class="fermeture-modale">
+                X
+            </button>
+        </div>
+    </div>
+    
+    
+    <!-- section parallax -->
+    <section class="parallax">
+        <p class="parallax-txt">
+            COURAGE.
+        </p>
+    </section>
+    
+    <!-- section tarifs -->
+    
+    <h2 class="titre-tarifs">TARIFS</h2>
+    
+    <section id="tarifs">
+        <!-- tarif 1 -->
+        <div class="carte-tarif">
+            <h3>BASIQUE</h3>
+            <p class="prix-carte">
+                <span>20</span>/mois
+            </p>
+
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                24h/24
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/cross.svg" alt="emojicroix rouge" class="img-info-carte">
+                Coach
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                CrossFit
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+        
+        <!-- tarif 2 -->
+        <div class="carte-tarif">
+            <h3>COMPLET</h3>
+            <p class="prix-carte">
+                <span>40</span>/mois
+            </p>
+
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                24h/24
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Coach
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                CrossFit
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/cross.svg" alt="emoji croix rouge" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+        
+        <!-- tarif 3-->
+        <div class="carte-tarif">
+            <h3>PRO</h3>
+            <p class="prix-carte">
+                <span>60</span>/mois
+            </p>
+
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Salle Libre
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                24h/24
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Coach
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                CrossFit
+            </p>
+            
+            <p class="infos-carte">
+                <img src="img/check.svg" alt="emoji check vert" class="img-info-carte">
+                Massage
+            </p>
+        </div>
+        
+    </section>
+    
+    <!-- section contact -->
+    
+    <h2 class="titre-contact">Contact</h2>
+    
+    <section id="contact">
+        <form action="#">
+            <label for="nom">NOM</label>
+            <input type="text" id="nom">
+            
+            <label for="objet">OBJET</label>
+            <input type="text" id="objet">
+            
+            <label for="txt-area">MESSAGE</label>
+            <textarea id="txt-area"></textarea>
+            
+            <button class="form-btn" type="submit">ENVOYER</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Tous droits réservés ©</p>
+    </footer>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
