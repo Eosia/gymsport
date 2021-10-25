@@ -2,5 +2,5 @@
 
 ### Template for sports hall
 
-## Link : https://gym.template.eosia.dev
+## Link : https://gymsport.eosia.dev
 
